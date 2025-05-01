@@ -22,17 +22,13 @@ pip package manager
 
 Setup
 bash
-# 1. Clone repository
-git clone https://github.com/yourusername/flight-delay-prediction.git
-cd flight-delay-prediction
-
-# 2. Install dependencies
+# 1. Install dependencies
 pip install -r requirements.txt
 
-# 3. Set up MySQL database
+# 2. Set up MySQL database
 mysql -u root -p < SQL_Data_Preparation.sql
 
-# 4. Import your flight data (CSV format)
+# 2. Import your flight data (CSV format)
 python data_importer.py path/to/your_data.csv
 
 Usage
